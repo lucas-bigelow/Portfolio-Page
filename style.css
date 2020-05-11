@@ -1,12 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+
 * {
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* --- HEADER STYLING --- */
+
+header {
+  background-color: #BDD2E5;
+  padding-bottom: 24px;
 }
 
 header h1 {
-  color: red;
+  margin: 0px;
+  color: #BDD2E5;
 }
+
+header img {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header h2 {
+  display: inline-block;
+  padding: 10px 0;
+  width: 22%;
+  margin: auto;
+  text-align: center;
+  border: solid;
+  border-width: 2px;
+  border-radius: 2%;
+  border-color: #83798D;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* --- MAIN STYLING --- */
+
+main {
+  background-color: #D2E5BD;
+  padding-bottom: 24px;
+}
+
+main h3 {
+  color: #83798D;
+  text-align: center;
+  font-size: 64px;
+  margin: 0;
+  padding: 12px 0;
+}
+
+main p, ol, ul {
+  color: #5B5462;
+  font-size: 24px;
+}
+
+main iframe {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+main div.contact-icons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main div.contact-icons > a {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+}
+
+main img#profile-pic {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border: solid;
+  border-radius: 1%;
+  border-color: #D0BDE5;
+  border-width: 2px;
+}
+
+/* --- FOOTER STYLING --- */
+
+footer {
+  background-color: #E5BDD2;
+}
+
+footer p {
+  padding: 24px 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* --- LINK STYLING --- */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: #5B5462;
+}
+
+a:visited {
+  color: #5B5462;
+}
+
+a:hover {
+  color: #83798D;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #E5BDD2;
+}
+
+/* --- GENERAL CLASSES --- */
 
 .wrapper {
   width: 80%;
   margin: auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.icon {
+  width: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-icon {
+  width: 25%;
+}
+
+/* --- SPACING CLASSES --- */
+
+.gap-lg {
+  margin-top: 100px;
+}
+
+.gap-md {
+  margin-top: 72px;
+}
+
+.gap-sm {
+  margin-top: 48px;
+}
+
+.gap-xs {
+  margin-top: 24px;
 }
